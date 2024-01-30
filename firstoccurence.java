@@ -15,4 +15,5 @@ public class numbers {
         System.out.println(firstocc(n,5,0));
     }
 }
+//time and space complexity O(n)
 
