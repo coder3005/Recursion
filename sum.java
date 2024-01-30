@@ -12,4 +12,5 @@ public class numbers {
         System.out.println(sum(n));
     }
 }
+//time and space complexity O(n)
 
