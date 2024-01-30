@@ -15,4 +15,4 @@ public class numbers {
         System.out.println(isSorted(n,0));
     }
 }
-
+//time and space complexity O(n)
