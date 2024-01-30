@@ -12,4 +12,6 @@ public class numbers {
         System.out.println(fibonacci(n));
     }
 }
+//time complexity O(2^n)
+//space complexity O(n)
 
