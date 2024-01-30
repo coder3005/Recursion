@@ -12,4 +12,6 @@ public class numbers {
         System.out.println(factorial(n));
     }
 }
+//time complexity O(n)
+//space complexity O(n)
 
