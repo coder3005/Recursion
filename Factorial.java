@@ -1,22 +1,15 @@
-/* Factorial using Recursion */
-import java.util.Scanner;
-class A 
-{
-    public static void main(String[] args) {
+package Recursion;
 
-        int n;
-        System.out.print("Enter any Number: ");
-        Scanner r=new Scanner(System.in);
-        n=r.nextInt();
-        A obj=new A();
-        int result=obj.fact(n);
-        System.out.print("Factorial of Given Number: "+result);
-    }
-    int fact(int n)
-    {
-        if(n==1)
+public class numbers {
+    public static int factorial(int n) {
+        if(n==0 || n==1) {
             return 1;
-        else    
-            return n*fact(n-1);
+        }
+        return n*factorial(n-1);
+    }
+    public static void main(String[] args) {
+        int n=5;
+        System.out.println(factorial(n));
     }
 }
+
